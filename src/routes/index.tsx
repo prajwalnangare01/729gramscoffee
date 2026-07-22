@@ -59,7 +59,7 @@ const menu = [
   ["Tiramisu French Toast", "Chocolate Basque Cheesecake", "Almond Croissant"],
 ];
 
-function Index() {
+export function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       {/* NAV */}
